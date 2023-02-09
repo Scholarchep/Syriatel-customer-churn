@@ -26,7 +26,7 @@ total day minutes, total day charge and customer service calls have a weak posit
 - Transform categorical variables: dummy variables are created for categorical features.<br>
 - SMOTE: SMOTE is used to handle class imbalance problems by oversampling the minority class with replacement.<br>
 The pie chart below shows the distribution of target variable after applying SMOTE.<br>
-![My image](Images/churn_distr2.png)
+![My image](Images/churn_2.png)
 
 
 ## Modeling
