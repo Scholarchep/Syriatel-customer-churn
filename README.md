@@ -3,7 +3,7 @@ Author: Scholar Chepkirui
 
 
 ## Project overview
-This project uses machine learning algorithms to build a model that can accurately predict customers who will churn based on the information available in the dataset. The dataset has 20 predictor variables mostly about customer usage patterns. There are 3333 records in this dataset, out of which 483 customers are churners and the remaining 2850 are non-churners. The target variable is 'churn'. Since the target variable is a categorical variable, classification algorithms is used to buld the predictive model. Recall is used to evaluate the model's performance.
+This project uses machine learning algorithms to build a model that can accurately predict customers who will churn based on the information available in the dataset. The dataset has 20 predictor variables mostly about customer usage patterns. The target variable is 'churn'. Since the target variable is a categorical variable, classification algorithms are used to build the predictive model. Recall is used to evaluate the model's performance.
 
 ## Business problem¶
 For telecommunication companies to grow their revenue generating base, it is key to attract new customers and at the same time increase customer retention rate. Syriatel is a provider of mobile telecommunication and data services based in Damascus, Syria. It has established that long-term relationships with customers are more effective than trying to attract new customers. Churn prediction has therefore become a very important part of the company's strategy. This project aims to develop a model which accurately predicts customers who are most likely to churn, and identify the features that are important for predicting customer churn. Syriatel can thus act to prevent the customer who is likely to churn from actually churning.
@@ -11,7 +11,7 @@ For telecommunication companies to grow their revenue generating base, it is key
 
 ## Exploratory data analysis
 There is a class imbalance problem since the target class has an uneven distribution of observations. 85.51% of the data belongs to the False class while 14.49% belongs to the true class.
-![My image](Images/churn_distr.png)
+![My image](Images/churn.png)
 
 The scaling differs across the features, and a few of the features are not normally distributed. The features will therefore have to be scaled and normalized.
 ![My image](Images/hist.png)
