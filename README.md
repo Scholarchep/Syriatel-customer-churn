@@ -38,4 +38,16 @@ A pipeline is used to prevent data leakage. Data is scaled in the pipeline.
 Recall is used as the main evaluation metric, but precision and accuracy are also considered as secondary metrics.
 
 ## Conclusion
+The final model that will be used to predict customer churn is the decision tree with tuned hyperparameters.This model results in the lowest number of false negatives.
+The most important features for predicting customer churn are:
+total day minutes: total number of minutes the customer has been in calls during the day
+total evening minutes: total number of minutes the customer has been in calls during the evening
+customer service calls: number of calls the customer has made to customer service
+total international minutes: total number of minutes the user has been in international calls
+Syriatel should ensure effective customer service so as to meet customers'expectations and analyze customer interactions. They can then follow up on both positive and negative feedbacks received.
+The more the number of minutes the customer spends on the phone, the higher the likelihood of not churning. The company should look into the call charge rates in comparison to the competitors, and consider if they should lower the charges of calls per minute. This can prevent other customers from churning.
+
+## Next steps
+The targeted recall score of 85% is not achieved by the best performing model. There is still some overfitting in the model irregardless of hyperparameter tuning.
+The training data size should be increased to reduce overfitting and hence improve model performance.
 
