@@ -30,7 +30,7 @@ The pie chart below shows the distribution of target variable after applying SMO
 
 
 ## Modeling
-Various models are created using logistic regression, decision tree, random forest and XGBoost algorithms. Hyperparameter tuning is applied to decision tree, random forest and XGBoost algorithms.<br>
+Various models are created using logistic regression, decision tree and random forest algorithms. Hyperparameter tuning is applied to ldecision tree and random forest algorithms.<br>
 A pipeline is used to prevent data leakage. Data is scaled in the pipeline.
 
 
