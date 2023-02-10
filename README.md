@@ -56,7 +56,8 @@ The targeted recall score of 85% is not achieved by the best performing model. T
 The training data size should be increased to reduce overfitting and hence improve model performance.
 
 ##  For More Information
-See the full analysis in the [Jupyter Notebook](https://github.com/Scholarchep/Syriatel-customer-churn/blob/main/customer_churn.ipynb) or review this [presentation](https://github.com/Scholarchep/Syriatel-customer-churn/blob/main/presentation.pdf).
+See the full analysis in the [Jupyter Notebook](https://github.com/Scholarchep/Syriatel-customer-churn/blob/main/customer_churn.ipynb) or review this [presentation](https://github.com/Scholarchep/Syriatel-customer-churn/blob/main/presentation.pdf)
+.
 For additional information, contact Scholar Chepkirui at scholarchepkirui@gmail.com
 
 
